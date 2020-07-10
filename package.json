@@ -1,0 +1,24 @@
+{
+  "name": "dronetrack-mern",
+  "version": "1.0.0",
+  "author": "Gent Semaj",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
