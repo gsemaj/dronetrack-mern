@@ -1,12 +1,8 @@
-import React from 'react';
-import Link from '../src/Link';
-import Copyright from '../src/component/Copyright';
+import Layout from '../src/component/Layout';
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <Copyright />
-    </div>
+    <Layout>
+    </Layout>
   );
 }
