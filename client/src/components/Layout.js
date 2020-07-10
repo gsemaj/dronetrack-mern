@@ -4,14 +4,17 @@ import Navbar from './Navbar';
 
 export default function Layout(props) {
   return (
-    <div className="container-fluid">
+    <div className="custom-wrapper">
       <Navbar />
-      <div className="row">
-        <div className="container-fluid">
-          {props.children}
-        </div>
-      </div>
+      {props.children}
       <Footer />
+
+      <style jsx="true">{`
+        .custom-wrapper {
+          overflow-x: hidden;
+        }
+        `}
+      </style>
     </div>
   );
 }

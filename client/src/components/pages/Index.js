@@ -5,11 +5,15 @@ import Lookup from '../Lookup';
 export default function Index() {
   return (
     <Layout>
-      <div className="row custom-bg justify-content-center">
-        <h1 className="display-3 my-5 mx-5">
-          Track your packages in real time.
-        </h1>
-        <Lookup />
+      <div className="custom-bg pb-5">
+        <div className="row justify-content-center">
+          <h1 className="display-4 my-5 mx-5 text-right">
+            Track your packages in real time.
+          </h1>
+        </div>
+        <div className="row justify-content-center">
+          <Lookup />
+        </div>
       </div>
 
       <style jsx="true">{`
