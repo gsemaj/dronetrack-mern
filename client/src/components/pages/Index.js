@@ -1,23 +1,24 @@
-import Layout from '../src/component/Layout';
-import Lookup from '../src/component/Lookup';
+import React from 'react';
+import Layout from '../Layout';
+import Lookup from '../Lookup';
 
 export default function Index() {
   return (
     <Layout>
-      <div className="row custom-bg">
-        <h1 className="display-3 text-center my-5">
+      <div className="row custom-bg justify-content-center">
+        <h1 className="display-3 my-5 mx-5">
           Track your packages in real time.
         </h1>
         <Lookup />
       </div>
 
-      <style jsx>{`
+      <style jsx="true">{`
         .custom-bg {
-          justify-content: center;
           background-image: url('/background.png');
           color: white;
         }
-        `}</style>
+        `}
+      </style>
     </Layout>
   );
 }
