@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "Gent Semaj",
   "dependencies": {
-    "@material-ui/core": "latest",
     "clsx": "latest",
     "next": "latest",
     "react": "latest",
