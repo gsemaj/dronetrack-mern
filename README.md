@@ -8,6 +8,7 @@ npm install
 cd client
 npm install
 cd ..
+
 # Run backend + frontend simultaneously
 npm run dev
 ```
